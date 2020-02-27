@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+    
+}
+header {
+    background-color: azure;
+    height: 60px;
+    font-size: xxx-large;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#head2 {
+    text-align: center;
+    background-color: azure;
+    font-size: x-large;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#DIV {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.DIV1 {
+    grid-area: 1/1;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: repeat(12, auto);
+    background-color: azure;
+}
+.DIV2 {
+    grid-area: 1/2;
+    display:grid;
+    grid-template-rows: repeat(10,auto);
+    grid-template-columns: auto;
+    background-color: azure;
+}
+#DIV11 {
+    grid-area: 1/1/span 1/span 3;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+#DIV12 {
+    grid-area: 2/1/span 1/span 3;
+}
+#DIV13 {
+    grid-area: 3/1/span 1/span 1;
+}
+#DIV14 {
+    grid-area: 3/2/span 1/span 1;
+}
+#DIV15 {
+    grid-area: 4/1/span 1/span 1;
+}
+
+#DIV16 {
+    grid-area: 5/1/span 1/span 1;
+}
+#DIV17 {
+    grid-area: 6/1/span 1/span 1;
+    font-style: italic ;
+    padding-right: 10px;
+}
+#div17 {
+    grid-area: 7/1/span 1/span 1;
+}
+#DIV18 {
+    grid-area: 8/1/span 1/span 1;
+}
+#DIV19 {
+    grid-area: 9/1/span 1/span 1;
+}
+#DIV20 {
+    grid-area: 10/1/span 1/span 1;
+}
+#DIV21 {
+    grid-area: 11/1/span 1/span 1;
+}
+#DIV22{
+    grid-area: 12/1/span 1/span 1;
+}
+#div22 {
+    grid-area: 1/1;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+}
+#div23 {
+    grid-area: 2/1;
+    text-align: center;
+}
+#div24{
+    grid-area: 3/1;
+    text-align: center;
+}
+#tbl {
+    grid-area: 4/1/span 6/span 1;
+    text-align: center;
+}
+
